@@ -52,6 +52,7 @@ const displayEntry = () => {
 
       const row = `<tr>${nameCell} ${emailCell} ${passwordCell} ${dobCell} ${acceptCell}</tr>`;
       return row;
+      location.reload();
     })
     .join("\n");
 

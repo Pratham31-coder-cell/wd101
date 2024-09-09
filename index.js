@@ -77,7 +77,6 @@ const displayEntry = () => {
 };
 
 const saveUserform = (e) => {
-  e.preventDefault(); // Prevent form submission to avoid page refresh
 
   const name = document.getElementById("name").value;
   const email = document.getElementById("email").value;

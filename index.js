@@ -47,7 +47,7 @@ const displayEntry = () => {
       const passwordCell = `<td class="border px-4 py-2">${entry.password}</td>`;
       const dobCell = `<td class="border px-4 py-2">${entry.dob}</td>`;
       const acceptCell = `<td class="border px-4 py-2">${
-        entry.accept ? "Yes" : "No"
+        entry.accept ? "true" : "false"
       }</td>`;
 
       const row = `<tr>${nameCell} ${emailCell} ${passwordCell} ${dobCell} ${acceptCell}</tr>`;
